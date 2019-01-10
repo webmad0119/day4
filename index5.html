@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <style>
+        @keyframes widthChange {
+            0% {
+                width: 200px;
+            }
+
+            50% {
+                width: 500px;
+                transform: rotate(90deg);
+                background-color: rgb(0, 255, 0)
+            }
+
+            100% {
+                width: 200px;
+            }
+        }
+
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        div:hover {
+            animation-name: widthChange;
+            animation-duration: 3s;
+        }
+        body {
+            font-family: 'Staatliches', cursive;
+        }
+
+        h1 {
+            font-size: 80px;
+        }
+        p {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <h1>My product</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, architecto. Delectus ullam sed, nesciunt accusamus consequuntur iure blanditiis? Nulla voluptates earum obcaecati quia placeat fuga ipsam ab sunt aliquam ex?</p>
+</body>
+
+</html>
